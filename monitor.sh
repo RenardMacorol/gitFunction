@@ -20,11 +20,9 @@ check_files(){
 }
 
 create_backup(){
-    echo "createing backup folder"
+    echo "Creating Backup Folder"
     mkdir -p backup
+    echo "Folder Creating Successfull"
 }
 
-check_updates
-check_network
-check_files
 create_backup
